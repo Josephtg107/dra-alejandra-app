@@ -12,16 +12,16 @@ export default function RootLayout() {
       }}
     >
       <Tabs.Screen
-        name="inicio"
+        name="index"
         options={{ title: 'Inicio' }}
-      />
-      <Tabs.Screen
-        name="ejercicios"
-        options={{ title: 'Ejercicios' }}
       />
       <Tabs.Screen
         name="perfil"
         options={{ title: 'Perfil' }}
+      />
+      <Tabs.Screen
+        name="ejercicios"
+        options={{ title: 'Ejercicios' }}
       />
     </Tabs>
   );
